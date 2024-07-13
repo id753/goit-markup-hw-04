@@ -230,7 +230,7 @@ address {
   border: none;
   /* ВАЖНО */
   display: block;
-  transition: color 1250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover {
   background-color: #404bbf;
@@ -436,7 +436,7 @@ fill: #8e8f99;
 
 .portfolio-item-img {
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
   /* transform: translateY(0%); */
 }
 .portfolio-img-text{
@@ -453,10 +453,10 @@ color: #f4f4fd;
   width: 100%;
   transform: translateY(100%); 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  overflow: hidden;
+  /* overflow: hidden; */
 
 }
-.portfolio-img-text:hover {
+.portfolio-item-img:hover .portfolio-img-text {
   transform: translateY(0%);
 }
 /*  */
@@ -504,7 +504,7 @@ li {
 }
 .footer-text {
   max-width: 264px;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 
 /* .footer {
@@ -540,6 +540,7 @@ margin-left: auto;
 .footer-link-icon{
   width: 40px;
   height: 40px;
+  background-color: #4d5ae5;
 }
 .footer-link-icon:hover{
   background-color: #31d0aa;
@@ -554,4 +555,5 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #fff;
 text-align: left;
+margin-bottom: 16px;
 }
