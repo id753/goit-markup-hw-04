@@ -365,10 +365,10 @@ align-items: center;
   background-color: #404bbf;
 /* fill: #8e8f99; */
 }
-.team-link-icon:hover {
+/* .team-link-icon:hover {
   background-color: #31D0AA;
-/* fill: #8e8f99; */
-}
+} */
+
 
 .team-link-icon:focus {
   background-color: #404bbf;
