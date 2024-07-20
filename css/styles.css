@@ -361,11 +361,15 @@ align-items: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  fill: #f4f4fd;
 }
-
+.team-link-icon:hover {
+  background-color: #404bbf;
+/* fill: #8e8f99; */
+}
 .team-link-icon:hover {
   background-color: #31D0AA;
 /* fill: #8e8f99; */
 }
+
 .team-link-icon:focus {
   background-color: #404bbf;
   }
