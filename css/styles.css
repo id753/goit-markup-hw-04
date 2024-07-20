@@ -87,6 +87,7 @@ body {
 .header-nav {
   display: flex;
  justify-content: center;
+ align-items: center;
 
  
 }
@@ -107,8 +108,8 @@ body {
   color: #2e2f42;
   text-decoration: none;
  
-  /* padding: 24px 0; */
-  /* display: block; */
+  padding: 24px 0;
+display: block;
 }
 .nav-link.current {
   display: block;
@@ -126,7 +127,7 @@ bottom: -1px;
 height: 4px; 
 background-color: #404bbf; 
 border-radius: 2px;
-top: 20px;
+/* top: 20px; */
 
 
 }
@@ -292,7 +293,7 @@ margin-bottom: 8px;
 /* 3 our team */
 .team {
   background: #f4f4fd;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); ;
+  /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); ; */
 }
 .title {
   font-weight: 700;
@@ -336,8 +337,8 @@ margin-bottom: 8px;
 
 .team-soc-list-icon {
   display: flex;
-  /* align-items: center;
-  justify-content: center;
+align-items: center;
+  /* justify-content: center;
   flex-direction: row; */
   gap: 24px;
   margin-top: 8px;
@@ -362,8 +363,8 @@ margin-bottom: 8px;
 }
 
 .team-link-icon:hover {
-  background-color: #404bbf;
-fill: #8e8f99;
+  background-color: #31D0AA;
+/* fill: #8e8f99; */
 }
 .team-link-icon:focus {
   background-color: #404bbf;
@@ -431,7 +432,7 @@ fill: #8e8f99;
   /* transform: translateY(0%); */
 }
 .portfolio-item:hover {box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
-  transform: translateY(0%);
+  /* transform: translateY(0%); */
 }
 
 .portfolio-item-img {
@@ -456,8 +457,8 @@ color: #f4f4fd;
   /* overflow: hidden; */
 
 }
-.portfolio-item-img:hover .portfolio-img-text {
-  transform: translateY(0%);
+.portfolio-item:hover .portfolio-img-text {
+  transform: translateY(0);
 }
 /*  */
 /* footer */
@@ -493,9 +494,9 @@ li {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  background-color: #4d5ae5;
+  /* background-color: #4d5ae5; */
   display: inline-block;
-  /* margin-bottom: 16px; */
+  margin-bottom: 16px;
   text-decoration: none;
   /* margin-right: 120px; */
 }
@@ -512,15 +513,15 @@ li {
 } */
 .footer-soc {
 
-  position: absolute;
+  /* position: absolute;
   top: 90px;
   bottom: 142px;
   left: 542px;
   right: 700px;
   border-color: #e7e9fc;
   width: 208px;
-height: 80px;
-margin-left: auto;
+height: 80px; */
+/* margin-left: auto; */
 }
 .footer-soc-list-icon {
   display: flex;
